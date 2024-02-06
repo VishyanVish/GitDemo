@@ -1,0 +1,2 @@
+0:0:0:0:0:0:0:1 - - [16/Sep/2023:10:19:34 +0530] "GET /studentdetails/home.jsp HTTP/1.1" 200 277
+0:0:0:0:0:0:0:1 - - [16/Sep/2023:10:19:35 +0530] "GET /studentdetails/home.jsp HTTP/1.1" 200 277

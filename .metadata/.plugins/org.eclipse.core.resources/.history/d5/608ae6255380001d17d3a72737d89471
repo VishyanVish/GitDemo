@@ -1,0 +1,10 @@
+package com;
+
+public class Person {
+	private int age;
+
+	public static void main(String[] args) {
+		Person p=new Person();
+		System.err.println(p.age);
+	}
+}

@@ -1,0 +1,9 @@
+package yarago;
+
+import java.util.Scanner;
+
+public class AssignThree {
+	public static void main(String[] args) {
+		
+	}
+}

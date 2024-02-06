@@ -1,0 +1,35 @@
+package array.com;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+public class Alert {
+
+	@Test
+	public void done() {
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\Users\\ADMIN\\Documents\\chromedriver-win64\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2000));
+		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
+		driver.manage().window().maximize();
+		driver.findElement(By.name("enter-name")).sendKeys(("vishwa"));
+		driver.findElement(By.id("alertbtn")).click();
+
+		System.out.println(driver.switchTo().alert().getText());
+		driver.switchTo().alert().dismiss();
+
+		driver.findElement(By.id("confirmbtn")).click();
+		System.out.println(driver.switchTo().alert().getText());
+		driver.switchTo().alert().dismiss();
+
+		driver.get("http://manager:123@192.168.0.111:1010/");
+		driver.findElement(By.xpath("//*[@id=\"actions\"]/div[2]/a")).click();
+		driver.manage().deleteAllCookies();
+	}
+
+}

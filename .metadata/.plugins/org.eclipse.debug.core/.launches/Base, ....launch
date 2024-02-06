@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.testng.eclipse.launchconfig">
+    <stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="org.eclipse.m2e.launchconfig.classpathProvider"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.testng.remote.RemoteTestNG"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="SeleniumFramework"/>
+    <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.m2e.launchconfig.sourcepathProvider"/>
+    <mapAttribute key="org.testng.eclipse.ALL_CLASS_METHODS">
+        <mapEntry key="source.Abstract" value="visibilyofWeblelment;Abstract;goOrderPage;visibilyofitem;goToCartPage"/>
+        <mapEntry key="source.Base" value="getScreenshot;IntializeDriver;lunchApplication"/>
+        <mapEntry key="source.CheckOutPage" value="goToCheckout;CheckOutPage"/>
+        <mapEntry key="source.ExtendsReportsone" value="extendsReport"/>
+        <mapEntry key="source.Landingpage" value="geterrorText;Landingpage;loginApplication;goTo"/>
+        <mapEntry key="source.Listeners" value="onTestStart;onTestFailedButWithinSuccessPercentage;onTestSuccess;onTestFailure;onTestSkipped"/>
+        <mapEntry key="source.ProductCatalogs" value="products;varifyProductLists;addProductToCart;varifyProductOrderLists;ProductCatalogs;getProductByname"/>
+        <mapEntry key="source.TestClass" value="getData;ValidateOrdersList;submitOrder;error"/>
+    </mapAttribute>
+    <listAttribute key="org.testng.eclipse.CLASS_TEST_LIST">
+        <listEntry value="source.CheckOutPage"/>
+        <listEntry value="source.Listeners"/>
+        <listEntry value="source.Abstract"/>
+        <listEntry value="source.Landingpage"/>
+        <listEntry value="source.ProductCatalogs"/>
+        <listEntry value="source.ExtendsReportsone"/>
+        <listEntry value="source.Base"/>
+        <listEntry value="source.TestClass"/>
+    </listAttribute>
+    <listAttribute key="org.testng.eclipse.METHOD_TEST_LIST"/>
+    <listAttribute key="org.testng.eclipse.PACKAGE_TEST_LIST"/>
+    <stringAttribute key="org.testng.eclipse.PRE_DEFINED_LISTENERS" value=""/>
+    <intAttribute key="org.testng.eclipse.TYPE" value="1"/>
+</launchConfiguration>

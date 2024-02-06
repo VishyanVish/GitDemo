@@ -1,0 +1,40 @@
+@charset "ISO-8859-1";
+.navbar-nav{
+    background-color:rgb(0, 68, 255) ;
+    padding: 3% ;
+  color: white;
+}
+.img-pay{
+    width: 100%;
+    height: 150px;
+}
+
+.mr-auto{
+    background-color:green;
+    color: white;  
+}
+.nav-link{
+    color: white;
+}
+
+.mr-auto{
+    width: 100%;
+}
+.Administration{
+    text-align: center;
+}
+
+.Button{
+    border-radius: 5px;
+    background: #545b62;
+
+    margin: 5px 10px 120px 100px;
+}
+
+.YaraGo{
+	margin-top: 250px;
+}
+
+#Nav{
+	padding: 0px 0px 0px 0px;
+}

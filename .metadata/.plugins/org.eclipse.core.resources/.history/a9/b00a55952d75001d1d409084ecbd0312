@@ -1,0 +1,13 @@
+package vishwa.java;
+
+public class Statickeyword {
+ static int age =20;
+  static void study()
+ {
+	 System.out.println("studing");
+ }
+ public static void main(String[] args) {
+	System.out.println(Statickeyword.age);
+	Statickeyword.study();
+}
+}

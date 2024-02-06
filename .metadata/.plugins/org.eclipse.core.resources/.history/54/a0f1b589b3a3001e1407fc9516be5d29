@@ -1,0 +1,12 @@
+package yarago.testng.com;
+
+import org.testng.ITestListener;
+
+
+public class Listerners implements ITestListener{
+
+	public void OnTestSuccess() {
+		System.out.println("succes");
+	}
+
+}

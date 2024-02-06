@@ -1,0 +1,13 @@
+package Storing;
+
+public class AdhaarCard {
+	private static AdhaarCard ac;
+private AdhaarCard() {
+	System.out.println("Adharcard Created");
+}
+public static void CreatAdhaarcard(){
+	if(ac==null) {
+	ac=new AdhaarCard();
+}
+}
+}

@@ -1,0 +1,7 @@
+package array.com;
+
+public class base {
+public static void main(String[] args) {
+	System.setProperty("webdriver.Chrome.driver", "C:\\Users\\ADMIN\\Documents\\chromedriver-win64\\chromedriver.exe");
+}
+}

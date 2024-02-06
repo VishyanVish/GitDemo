@@ -1,0 +1,31 @@
+package vishwa.java;
+
+import java.util.Scanner;
+
+public class Assign {
+	
+		public static void main(String[] args) {
+			//Scanner class for taking user input
+	        Scanner sc=new Scanner(System.in);
+	        //Taking user input
+	        int input_number=sc.nextInt();
+	        if(input_number%2==0) {
+	            System.out.println("User input " + input_number + " is even");
+	        }
+	        else {
+	            System.out.println("User input " + input_number + " is odd");
+	        }
+	        //Taking copy of user input before further modification
+	        int num=input_number;
+	        int sum=0;
+	        for (int i=1;i<=100;i++){
+	            num=num+2;
+	            sum=sum+num;
+	            System.out.println(num);
+	            
+	        }
+	        System.out.println("sum of consecutive numbers is "+sum);
+	    }
+	}    
+
+

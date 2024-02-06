@@ -1,0 +1,9 @@
+package whatsapp.com;
+
+public class whatsapp2 extends whatsapp1 {
+	void Display(){
+	
+		System.out.println("Display of double tick");
+		
+}
+}

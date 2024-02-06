@@ -1,0 +1,8 @@
+package com;
+import java.io.*;
+public class FileCreate {
+public static void main(String[] args) {
+	File f=new File("C:\\Users\\ADMIN\\Desktop\\");
+	if (f.)
+}
+}

@@ -1,0 +1,11 @@
+package com;
+
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class FIleWriter {
+public static void main(String[] args) throws IOException {
+	FileWriter f=new FileWriter("C:\\\\Users\\\\ADMIN\\\\Desktop\\\\vi.txt");
+	f.write("Java Program");
+}
+}

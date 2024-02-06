@@ -1,0 +1,15 @@
+package vishwa.java;
+import java.util.Scanner;
+public class Statickeyword {
+ static int age ;
+  static void study()
+ {
+	 System.out.println("studing");
+ }
+ public static void main(String[] args) {
+	 Scanner scan =new Scanner(System.in);
+	 age=scan.nextInt();
+	System.out.println(Statickeyword.age);
+	Statickeyword.study();
+}
+}

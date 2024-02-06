@@ -1,0 +1,12 @@
+package com;
+
+public class EMP extends Person {
+void work() {
+	System.out.println("start");
+	
+}
+public static void main(String[] args) {
+	Person P=new EMP();
+	P.work();
+}
+}

@@ -1,0 +1,13 @@
+body{
+    background-color: azure;
+}
+
+#button{
+background-color: skyblue;
+color: black;
+}
+
+#Reset{
+    color: black;
+    background-color:orange;
+}

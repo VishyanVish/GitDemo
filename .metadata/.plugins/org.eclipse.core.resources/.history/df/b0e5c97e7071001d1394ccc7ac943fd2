@@ -1,0 +1,8 @@
+package com;
+
+public class DefaultValuesDemo {
+int a;
+double b;
+boolean c;
+
+}

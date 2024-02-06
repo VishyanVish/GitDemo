@@ -1,0 +1,13 @@
+package com;
+
+public class Person {
+	private int age;
+ void setAge(int age)
+{
+	this.age=age;
+}
+ int getAge()
+{
+	return age;
+}
+}

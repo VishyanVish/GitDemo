@@ -1,0 +1,16 @@
+package vishwa.java;
+// Accessing Static properties ;
+import java.util.Scanner;
+public class Statickeyword {
+ static final int age =20;
+  static void study()
+ {
+	 System.out.println("studing");
+ }
+ public static void main(String[] args) {
+	 Scanner scan =new Scanner(System.in);
+	 age=scan.nextInt();
+	System.out.println(Statickeyword.age);
+	Statickeyword.study();
+}
+}

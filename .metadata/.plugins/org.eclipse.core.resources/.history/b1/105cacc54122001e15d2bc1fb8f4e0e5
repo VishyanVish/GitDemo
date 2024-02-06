@@ -1,0 +1,11 @@
+package yarago;
+
+import java.util.Scanner;
+
+public class Solution {
+public static void main(String[] args) {
+	AssignTwo t= new Calsi();
+	Scanner s =new Scanner(System.in);
+	
+}
+}

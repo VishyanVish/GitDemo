@@ -1,0 +1,17 @@
+package array.com;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class info {
+
+	public static void main(String[] args) {
+	System.setProperty("webdriver.chrome.driver", "C:\\Users\\ADMIN\\Documents\\msedgedriver.exe");
+		WebDriver Driver=new ChromeDriver();
+		Driver.get("http://106.51.16.208:5050/yaragoemrjavaclient/");
+      
+        System.out.println(Driver.getTitle());
+        System.out.println(Driver.getCurrentUrl());
+        Driver.close();
+	}
+}

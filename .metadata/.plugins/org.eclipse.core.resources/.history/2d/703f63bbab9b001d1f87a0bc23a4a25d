@@ -1,0 +1,12 @@
+package Storing;
+
+public class Marriage {
+int age=25;
+private Marriage() {
+	System.out.println("got Married");
+}
+public static void CreatObject(){
+	Marriage M=new Marriage();
+	
+}
+}

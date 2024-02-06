@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-26T11:54:02 IST" name="Suite" finished-at="2023-12-26T11:54:14 IST" duration-ms="11898">
+    <groups>
+      <group name="smoke">
+        <method signature="Demo.ex()[pri:0, instance:yarago.testng.com.Demo@4082ba93]" name="ex" class="yarago.testng.com.Demo"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2023-12-26T11:54:02 IST" name="Test" finished-at="2023-12-26T11:54:14 IST" duration-ms="11781">
+      <class name="yarago.testng.com.TestngOne">
+        <test-method signature="two()[pri:0, instance:yarago.testng.com.TestngOne@5149d738]" started-at="2023-12-26T11:54:02 IST" name="two" finished-at="2023-12-26T11:54:02 IST" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- two -->
+        <test-method signature="URL(java.lang.String)[pri:0, instance:yarago.testng.com.TestngOne@5149d738]" started-at="2023-12-26T11:54:02 IST" name="URL" finished-at="2023-12-26T11:54:14 IST" duration-ms="11567" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://rahulshettyacademy.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- URL -->
+        <test-method signature="three()[pri:0, instance:yarago.testng.com.TestngOne@5149d738]" started-at="2023-12-26T11:54:14 IST" name="three" finished-at="2023-12-26T11:54:14 IST" depends-on-methods="yarago.testng.com.TestngOne.two" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- three -->
+        <test-method is-config="true" signature="one()[pri:0, instance:yarago.testng.com.TestngOne@5149d738]" started-at="2023-12-26T11:54:14 IST" name="one" finished-at="2023-12-26T11:54:14 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- one -->
+      </class> <!-- yarago.testng.com.TestngOne -->
+    </test> <!-- Test -->
+    <test started-at="2023-12-26T11:54:14 IST" name="Demo" finished-at="2023-12-26T11:54:14 IST" duration-ms="41">
+      <class name="yarago.testng.com.Demo">
+        <test-method signature="ex()[pri:0, instance:yarago.testng.com.Demo@4082ba93]" started-at="2023-12-26T11:54:14 IST" name="ex" finished-at="2023-12-26T11:54:14 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ex -->
+      </class> <!-- yarago.testng.com.Demo -->
+    </test> <!-- Demo -->
+  </suite> <!-- Suite -->
+</testng-results>

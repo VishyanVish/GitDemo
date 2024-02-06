@@ -1,0 +1,18 @@
+package yarago;
+
+public class Calsi implements AssignTwo {
+ public void Add(double a,double b) {
+	 System.out.println("Sum of a and b = "+"\n"+(a+b));
+ }
+ public void sub(double a,double b) {
+	 System.out.println("Substration of a and b = "+"\n"+(a-b));
+ }
+ public void multi(double a,double b) {
+	 System.out.println("Mulptiplication of a and b = "+"\n"+(a*b));
+ }
+ public void div(double a,double b) {
+	 System.out.println("Division of a and b = "+"\n"+(a/b));
+ }
+@Override
+
+}

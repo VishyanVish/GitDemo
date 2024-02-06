@@ -1,0 +1,10 @@
+package Storing;
+
+public class Singleton {
+ private Singleton() {
+	 System.out.println("object got created");
+ }
+ public  static void creatObject() {
+	 Singleton S=new Singleton();
+ }
+}

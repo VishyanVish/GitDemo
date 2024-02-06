@@ -1,0 +1,16 @@
+package yarago;
+
+import java.util.Scanner;
+
+public class Solution {
+public static void main(String[] args) {
+	AssignTwo t= new Calsi();
+	Scanner s =new Scanner(System.in);
+	while(true) {
+		System.out.println("1:Add\\n2:Sub\\n3:Mutliplication\\n4:Division ");
+		
+		System.out.println("enter Choise");
+		int a=s.nextInt();
+	}
+}
+}

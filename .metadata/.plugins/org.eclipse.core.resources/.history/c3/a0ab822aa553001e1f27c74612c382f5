@@ -1,0 +1,35 @@
+package com.yarago;
+import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
+public class entitydao {
+	
+	
+public List<entity> getEntity(String name) {
+	List<entity> res = new ArrayList<>();
+entity e1=new entity();
+try {
+  Class.forName("com.mysql.jdbc.Driver");
+  Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/studentdatabase","root","yarago123");
+  Statement st=con.createStatement();
+  ResultSet rs= st.executeQuery("select * from `form_data`");
+  while (rs.next()) {
+	  e1.setName(rs.getString("name"));
+	  e1.setAge(rs.getInt("age"));
+	  e1.setDate(rs.getString("date"));
+	  e1.setGender(rs.getString("gender"));
+	  e1.setEmail(rs.getString("email"));
+	  e1.setPassword(rs.getString("password"));
+	  e1.setMobile(rs.getString("mobile"));
+	  res.add(e1);
+}
+
+  
+}
+	catch (Exception e) {
+		// TODO: handle exception
+	}
+return res;
+}
+
+}

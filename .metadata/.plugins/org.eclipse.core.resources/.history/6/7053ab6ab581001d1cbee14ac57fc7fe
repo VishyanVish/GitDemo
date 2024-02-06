@@ -1,0 +1,10 @@
+package com;
+
+public class subclass extends Upcasting{
+int y=10;
+String nam="run";
+public static void main(String[] args) {
+	Upcasting u=new subclass();
+	System.out.println(u.x+" "+u.name);
+}
+}

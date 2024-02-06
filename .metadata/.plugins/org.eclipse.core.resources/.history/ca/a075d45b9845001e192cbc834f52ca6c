@@ -1,0 +1,18 @@
+var  FirstName=document.getElementById('FirstName');
+var  Age=document.getElementById('Age');
+var  MobileNumber=document.getElementById('mobile_number');
+var  Gender=document.getElementById('gender');
+var  email=document.getElementById('email');
+var  Password=document.getElementById('Password');
+var  DOB=document.getElementById('date');
+var  form=document.querySelector('.form');
+var Button=document.getElementById('button');
+
+form.addEventListener('submit',function(Validate){
+ Validate.preventDefault();
+ //console.log("works");
+ 
+ const
+ 
+}
+)
