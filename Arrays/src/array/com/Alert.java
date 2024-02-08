@@ -27,6 +27,8 @@ public class Alert {
 		driver.navigate().to("http://manager:123@192.168.0.112:5050/");
 		driver.findElement(By.xpath("//*[@id=\"actions\"]/div[2]/a")).click();
 		driver.manage().deleteAllCookies();
+		
+		System.out.println("send");
 	}
 
 }
